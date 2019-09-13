@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- testng.xml files should only be at project level. not inside packages -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DummyAPI">
+    <test name="Dummy CRUD operations">
+        <classes>
+            <class name="tests.DummyAPITest"/>
+        </classes>
+    </test>
+</suite>
